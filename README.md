@@ -7,8 +7,8 @@
 
 <h1 align="center">[REPOSITORY NAME]</h1>
 <p align="center">
-  <a href="{{REPOSITORY_LINK}}/actions/workflows/net-core-build.yml">
-      <img src="{{REPOSITORY_LINK}}/actions/workflows/net-core-build.yml/badge.svg">
+  <a href="{{REPOSITORY_URL}}/actions/workflows/net-core-build.yml">
+      <img src="{{REPOSITORY_URL}}/actions/workflows/net-core-build.yml/badge.svg">
   </a>
   <a href="https://sonarcloud.io/dashboard?id=lncodes_{{REPOSITORY_NAME}}">
       <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_{{REPOSITORY_NAME}}&metric=alert_status">
@@ -42,7 +42,7 @@ We appreciate your interest in contributing to this project! For detailed guidel
 
 <h2 id="discussion">💬 Discussion</h2>
 
-If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum]({{REPOSITORY_LINK}}/discussions). You can also leave comments on [BLOG_NAME - Last Night Codes]([BLOG_LINK]) blog post for more in-depth discussion on this project’s topics.
+If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum]({{REPOSITORY_URL}}/discussions). You can also leave comments on [BLOG_NAME - Last Night Codes]([BLOG_LINK]) blog post for more in-depth discussion on this project’s topics.
 
 <h2 id="license"> 📋 License</h2>
 
