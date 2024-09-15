@@ -1,11 +1,11 @@
 <br>
 <p align="center">
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://lncodes.com">
-    <img src="https://github.com/lncodes/docs/blob/master/assets/animations/lncodes-logo-animation.gif" height="175"></img>
+    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="175"></img>
   </a>
 </p>
 
-<h1 align="center">[REPOSITORY NAME]</h1>
+<h1 align="center">[REPOSITORY TITLE]</h1>
 <p align="center">
   <a href="{{REPOSITORY_URL}}/actions/workflows/net-core-build.yml">
       <img src="{{REPOSITORY_URL}}/actions/workflows/net-core-build.yml/badge.svg">

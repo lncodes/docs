@@ -30,7 +30,7 @@ Thank you for your contribution! To ensure that your pull request is reviewed an
 ## Branching & Merging
 
 1. **Branching**:
-   - Create your branch from the develop branch, not from the master or any other branch.
+   - Create your branch from the develop branch, not from the main or any other branch.
    - Name your branch based on the issue or feature you're working on, e.g., `fix/issue-123`, `feature/new-component`.
 
 2. **Merging**:
