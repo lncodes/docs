@@ -4,13 +4,11 @@ Shared documentation and templates for repositories in the [lncodes](https://git
 
 | Path | Purpose |
 |---|---|
-| `templates/README-template.md` | Standard README layout for lncodes repositories |
-| `templates/CONTRIBUTING-template.md` | Source for the organization-wide CONTRIBUTING guidelines |
-| `PULL_REQUEST_GUIDELINES.md` | How to prepare and submit pull requests |
-| `workflows/update-markdown-placeholders.yml` | GitHub Actions workflow that fills `{{REPOSITORY_NAME}}` / `{{REPOSITORY_URL}}` placeholders in `docs/*.md` |
+| `templates/README-template.md` | Standard README layout (repository root and collection folder) |
+| `PULL_REQUEST_GUIDELINES.md` | Pointer to the pull request section of the org-wide Contributing Guidelines |
 | `assets/` | Shared images such as the animated logo |
 
-Organization-wide defaults (issue/PR templates, code of conduct, contributing, security policy) live in [`lncodes/.github`](https://github.com/lncodes/.github).
+Organization-wide defaults (issue forms, PR template, code of conduct, contributing guidelines, security policy) live in [`lncodes/.github`](https://github.com/lncodes/.github).
 
 ## License
 

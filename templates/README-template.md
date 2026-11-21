@@ -1,49 +1,49 @@
-<br>
-<p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://lncodes.com">
-    <img src="https://github.com/lncodes/docs/blob/main/assets/animations/lncodes-logo-animation.gif" height="175"></img>
-  </a>
-</p>
+<!--
+README template for lncodes repositories. Copy, then replace every <ANGLE-BRACKET> value and delete what doesn't apply.
+Rules: plain Markdown headings (GitHub builds the "Outline" table of contents from them), alt text on every image,
+absolute links to org files, and only badges for workflows that actually run.
 
-<h1 align="center">[REPOSITORY TITLE]</h1>
-<p align="center">
-  <a href="{{REPOSITORY_URL}}/actions/workflows/net-core-build.yml">
-      <img src="{{REPOSITORY_URL}}/actions/workflows/net-core-build.yml/badge.svg">
-  </a>
-  <a href="https://sonarcloud.io/dashboard?id=lncodes_{{REPOSITORY_NAME}}">
-      <img src="https://sonarcloud.io/api/project_badges/measure?project=lncodes_{{REPOSITORY_NAME}}&metric=alert_status">
-  </a>
-</p>
+Two layouts:
+  A. Repository root (collection or single project): keep the logo, badge and "What's inside" table.
+  B. A folder inside a collection: delete the logo and badge; keep the "Part of" line and the short footer.
+-->
 
-<p align="center">
-  <a href="#introduction">Introduction</a> •
-  <a href="#installation">Installation</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#contribute">Contribute</a> •
-  <a href="#discussion">Discussion</a> •
-  <a href="#license">License</a>
-</p>
+<p align="center"><a href="https://www.lncodes.com"><img src="https://raw.githubusercontent.com/lncodes/docs/main/assets/animations/lncodes-logo-animation.gif" alt="Last Night Codes logo" height="120"></a></p>
 
-<h2 id="introduction">🌟 Introduction</h2>
+# <Project title>
 
-[Introduction about this repository]
+[![CI](https://github.com/lncodes/<repo>/actions/workflows/ci.yml/badge.svg)](https://github.com/lncodes/<repo>/actions/workflows/ci.yml)
 
-<h2 id="installation">📦 Installation</h2>
+<!-- Layout B only: -->
+> Part of [**<collection>**](../README.md) · targets **.NET 10**
 
-[How install this project]
+<One or two sentences: what this shows or does, and why someone would use it.>
 
-<h2 id="usage">🧑‍💻 Usage</h2>
+<!-- Demos: add a screenshot or GIF here. Libraries: show a short usage example under "Usage". -->
 
-[how to use this project]
+## Quick start
 
-<h2 id="contribute">🤝 Contribute</h2>
+```bash
+git clone https://github.com/lncodes/<repo>.git
+cd <repo>/<folder>
+dotnet run --project src     # console demo
+dotnet test test             # unit tests
+```
 
-We appreciate your interest in contributing to this project! For detailed guidelines on how to report issues and submit pull requests, please check out our [Contributing Guidelines](CONTRIBUTING.md).
+## What's inside
 
-<h2 id="discussion">💬 Discussion</h2>
+- [`src/<KeyFile>.cs`](src/<KeyFile>.cs): <what it contains>
 
-If you have any questions or want to discuss anything related to this project, visit our [Discussion Forum]({{REPOSITORY_URL}}/discussions). You can also leave comments on [BLOG_NAME - Last Night Codes]([BLOG_LINK]) blog post for more in-depth discussion on this project’s topics.
+## Usage
 
-<h2 id="license"> 📋 License</h2>
+```csharp
+// The smallest working example. Compile it before publishing.
+```
 
-This project is licensed under the [MIT License](../LICENSE).<br>
+## Learn more
+
+Read the full explanation on the blog: [<Post title> – Last Night Codes](https://www.lncodes.com/<slug>)
+
+---
+
+Questions? Use [Discussions](https://github.com/lncodes/<repo>/discussions) · [Contributing](https://github.com/lncodes/.github/blob/main/CONTRIBUTING.md) · [MIT License](LICENSE)
